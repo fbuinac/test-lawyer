@@ -9,37 +9,103 @@ body {
     font-size: 18px;
     background-color: #10101E;
     color: black;
+    
 }		
 
-#pageHeader,#menu,#pageFooter,section,article {
+#menu,#pageFooter,section,article {
     padding: 10px;
 }	
 
-#pageHeader {
-    background-color: #535E7A;
+#menu {
+    background-color: rgb(243, 249, 250);
 }
 
-#menu {
-    background-color: #58A4B0;
+#menu ul {
+    float: right;
+    width: 70%;
+    list-style-type: none;
+    text-align: right;
 }			
+
+#menu li {
+    display: inline;
+}			
+#menu ul a {
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    margin-right: 20px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #28377e;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #f15829;
+}
+
+.logo {
+    float:left;
+    width: 30%;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-size:30px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: #28377e;
+    text-decoration: none;
+}
+
+
+#pageHeader {	
+    height: 700px;
+	text-align: center;
+	display: flex;
+	color: #FFF;
+    background-image: url("../images/slide.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#pageHeader div {
+	margin: auto;
+}
+
+#pageHeader h1 {
+	font-size: 80px;
+}
+#pageHeader div h1 span{
+	display: block;
+}
+
+
 
 section{
     background-color: #A9BCD0;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(255, 0, 191);
 }
 
+/* FIRST SECTION start *************************/
+
+#firstSection article {
+    width: 100%;
+}
+
+#firstSection {
+    height: 796px;
+    background-image: url("../images/firstsection.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/* FIRST SECTION end *************************/
 #services {
     background-color: #98DFAF;
 }
 
 article {
     background-color: #EEF8FF;
-}
-
-#about article {
-    width: 100%;
-    float: left;
-/*	margin: 0 0.5%; */
 }
 
 #about article:first-of-type {
@@ -56,6 +122,11 @@ article {
     background-color: #D8DBE2;
 }
 
+.wrapper-nav {
+    border: 2px solid rgb(42, 211, 20);
+    max-width: 1060px;
+    margin: 5px auto;
+}
 .wrapper {
     border: 2px solid #7D53DE;
     max-width: 1100px;
