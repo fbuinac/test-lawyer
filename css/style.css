@@ -13,11 +13,14 @@ body {
 }		
 
 #menu,#pageFooter,section,article {
-    padding: 10px;
+    padding:1px;
 }	
 
+/* MENU - NAVIGACIJA start ****************************************/
+
 #menu {
-    background-color: rgb(243, 249, 250);
+    background-color: #FFFFFF;
+    height: 100px;
 }
 
 #menu ul {
@@ -30,13 +33,14 @@ body {
 #menu li {
     display: inline;
 }			
+
 #menu ul a {
     font-family: "Montserrat", "Open Sans", sans-serif;
-    margin-right: 20px;
 	font-size: 12px;
 	font-weight: 600;
 	color: #28377e;
     text-decoration: none;
+    margin: auto 0 auto 20px;
 }
 
 #menu a:hover {
@@ -54,7 +58,9 @@ body {
     text-decoration: none;
 }
 
+/* MENU - NAVIGACIJA end ****************************************/
 
+/* HEADER start ************************************************/
 #pageHeader {	
     height: 700px;
 	text-align: center;
@@ -73,10 +79,11 @@ body {
 #pageHeader h1 {
 	font-size: 80px;
 }
+
 #pageHeader div h1 span{
 	display: block;
 }
-
+/* HEADER end ************************************************/
 
 
 section{
@@ -86,20 +93,25 @@ section{
 
 /* FIRST SECTION start *************************/
 
+#firstSection h1 {
+   color: #28377e;
+   
+}
+
 #firstSection article {
-    width: 100%;
+    width: 60%;
 }
 
 #firstSection {
     height: 796px;
     background-image: url("../images/firstsection.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-repeat: a
 }
 
 
 /* FIRST SECTION end *************************/
+
 #services {
     background-color: #98DFAF;
 }
@@ -108,29 +120,25 @@ article {
     background-color: #EEF8FF;
 }
 
-#about article:first-of-type {
-    background-color: red;
-    margin-right: 2%;
-}
-
-/*
-:last-of-type
-:nth-of-type(3)
-*/
-
 #pageFooter {
     background-color: #D8DBE2;
 }
 
 .wrapper-nav {
-    border: 2px solid rgb(42, 211, 20);
+    border: 1px solid rgb(42, 211, 20);
     max-width: 1060px;
-    margin: 5px auto;
+    margin: 0 auto;
+}
+
+.wrapper-first  {
+    border: 1px solid rgb(42, 211, 20);
+    max-width: 1060px;
+    margin: 153px auto;
 }
 .wrapper {
     border: 2px solid #7D53DE;
     max-width: 1100px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .clearfix:after {
