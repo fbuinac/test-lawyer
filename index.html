@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS Layout - Fluid layout</title>
+		<style>
+			* {
+				margin:0;
+				padding:0;
+				box-sizing: border-box;
+			}
+			
+			body {
+				font-family: Verdana, sans-serif;
+				font-size: 18px;
+				background-color: #10101E;
+				color: black;
+			}		
+			#pageHeader,#menu,#pageFooter,section,article {
+				padding: 10px;
+			}	
+			#pageHeader {
+				background-color: #535E7A;
+			}
+			#menu {
+				background-color: #58A4B0;
+			}			
+			
+			section{
+				background-color: #A9BCD0;
+				border-bottom: 2px solid white;
+			}
+			
+			#services {
+				background-color: #98DFAF;
+			}
+			
+			article {
+				background-color: #EEF8FF;
+			}
+			
+			#about article {
+				width:49%;
+				float: left;
+			/*	margin: 0 0.5%; */
+			}
+			
+			#about article:first-of-type {
+				background-color: red;
+				margin-right: 2%;
+			}
+			
+			/*
+			:last-of-type
+			:nth-of-type(3)
+			*/
+
+			
+			#pageFooter {
+				background-color: #D8DBE2;
+			}
+			
+			.wrapper {
+				border: 2px solid #7D53DE;
+				max-width: 1100px;
+				margin: 20px auto;
+			}
+			
+			.clearfix:after {
+				content:" ";
+				display: block;
+				clear: both;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav id="menu">
+			Navigacija
+		</nav>
+		<!-- menu #menu end --><header id="pageHeader">
+			Header stranice
+		</header>
+		<!-- header #pageHeader end -->
+		<section id="about">
+			<div class="wrapper clearfix">
+				<h1>About Us</h1>
+				<article>Sadržaj 1</article>
+				<article>Sadržaj 2</article>
+			</div>	
+		</section>
+		<!-- section #about end-->
+		<section id="services">
+			<div class="wrapper clearfix">
+				<h1>Services</h1>
+				<article>Sadržaj 3</article>
+				<article>Sadržaj 4</article>
+				<article>Sadržaj 5</article>
+			</div>	
+		</section>
+		<!-- section #services end-->
+		<section id="contact">
+			<div class="wrapper clearfix">
+			<h1>Contact</h1>
+			<article>Sadržaj 6</article>
+			<article>Sadržaj 7</article>
+			<article>Sadržaj 8</article>
+			<article>Sadržaj 9</article>
+			</div>	
+		</section>
+		<!-- section #contact end-->
+		<footer id="pageFooter">
+			Footer stranice
+		</footer>
+		<!-- footer #pageFooter end -->
+	</body>
+</html>
