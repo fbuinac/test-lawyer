@@ -1,4 +1,5 @@
 * {
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900');
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -19,19 +20,23 @@ body {
 /* MENU - NAVIGACIJA start ****************************************/
 
 #menu {
+    display: flex;
     background-color: #FFFFFF;
     height: 100px;
 }
 
 #menu ul {
     float: right;
-    width: 70%;
-    list-style-type: none;
     text-align: right;
+    display: flex;
+    width: 58%;
+    list-style-type: none;
 }			
 
 #menu li {
-    display: inline;
+    text-align: right;
+    display: flex;
+
 }			
 
 #menu ul a {
@@ -40,7 +45,8 @@ body {
 	font-weight: 600;
 	color: #28377e;
     text-decoration: none;
-    margin: auto 0 auto 20px;
+    margin: auto;
+    margin-left: 30px;
 }
 
 #menu a:hover {
@@ -49,10 +55,10 @@ body {
 
 .logo {
     float:left;
-    width: 30%;
+    width: 42%;
     font-family: "Montserrat", "Open Sans", sans-serif;
     font-size:30px;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
     font-weight: 700;
     color: #28377e;
     text-decoration: none;
@@ -65,7 +71,8 @@ body {
     height: 700px;
 	text-align: center;
 	display: flex;
-	color: #FFF;
+    color: #FFF;
+    margin: auto;
     background-image: url("../images/slide.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -77,6 +84,8 @@ body {
 }
 
 #pageHeader h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 	font-size: 80px;
 }
 
@@ -85,60 +94,97 @@ body {
 }
 /* HEADER end ************************************************/
 
-
-section{
-    background-color: #A9BCD0;
-    border-bottom: 2px solid rgb(255, 0, 191);
-}
-
 /* FIRST SECTION start *************************/
-
-#firstSection h1 {
-   color: #28377e;
-   
-}
-
-#firstSection article {
-    width: 60%;
-}
-
 #firstSection {
     height: 796px;
     background-image: url("../images/firstsection.jpg");
-    background-repeat: no-repeat;
-    background-repeat: a
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
+.test {
+    float: left;
+    width: 50%;
+}
 
+#firstSection h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #204f87;
+    padding: 15px 0;
+}
+
+#firstSection article {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #b4b4b4;
+    line-height: 170%;
+}
 /* FIRST SECTION end *************************/
 
-#services {
-    background-color: #98DFAF;
+
+#secondSection {
+    height: 1000px;
+    background-image: url("../images/services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titleSecond {
+    padding: 65px 0;
+    text-align: center;
 }
 
-article {
-    background-color: #EEF8FF;
+.titleSecond h1{
+    font-family: 'Montserrat', sans-serif;
+    transform: scale(1, 1.03);
+    font-weight: 700;
+    font-size: 35px;
+    padding: 15px 0;
+    color: #204f87;
 }
+#secondSection article{
+ 
+    float: left;
+    width: 31%;
+    text-align: center;
+    margin-right: 24px;
+
+}
+
+
+
 
 #pageFooter {
     background-color: #D8DBE2;
 }
 
 .wrapper-nav {
-    border: 1px solid rgb(42, 211, 20);
+    width: 1060px;
     max-width: 1060px;
-    margin: 0 auto;
+    display: flex;
+    margin: auto;
 }
 
 .wrapper-first  {
-    border: 1px solid rgb(42, 211, 20);
     max-width: 1060px;
-    margin: 153px auto;
+    margin: 137px auto;
 }
+
+.wrapper-second  {
+    border: 1px solid red;
+    height: 450px;
+    max-width: 1060px;
+    margin: auto;
+}
+
+
 .wrapper {
     border: 2px solid #7D53DE;
     max-width: 1100px;
-    margin: 10px auto;
+
 }
 
 .clearfix:after {
