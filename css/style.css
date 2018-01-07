@@ -14,7 +14,7 @@ body {
 }		
 
 #menu,#pageFooter,section,article {
-    padding:1px;
+    padding: 1px;
 }	
 
 /* MENU - NAVIGACIJA start ****************************************/
@@ -128,10 +128,14 @@ body {
 
 #secondSection {
     height: 1000px;
-    background-image: url("../images/services.jpg");
+    background-image: url("../images/services.png");
+    z-index: 2;
+    width: 100%;
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .titleSecond {
     padding: 65px 0;
     text-align: center;
@@ -152,7 +156,6 @@ body {
     background-position: left top, center top, right top;
     background-repeat: no-repeat, no-repeat, no-repeat;
     height: 450px;
-
 }
 
 #secondSection .tinted{ 
@@ -164,10 +167,16 @@ body {
 
 
 
-
-
-
-
+#workers {  
+    position: relative;
+    height: 1350px;
+    margin-top: -200px;
+    width: 100%;
+    background-image: url("../images/workers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
 
 
 
@@ -175,6 +184,7 @@ body {
 
 
 #pageFooter {
+    padding: 20px 0;
     background-color: #D8DBE2;
 }
 
@@ -195,6 +205,12 @@ body {
     height: 450px;
     max-width: 1060px;
     margin: auto;
+}
+.wrapper-third  {
+    border: 3px dashed rgb(176, 221, 12);
+    height: 930px;
+    margin: 318px auto;
+    max-width: 1060px;
 }
 
 
