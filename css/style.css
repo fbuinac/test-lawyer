@@ -13,7 +13,7 @@ body {
     
 }		
 
-#menu, #pageHeader, #firstSection, #secondSection, #workers, #pageFooter {
+#menu, #pageHeader, #firstSection, #secondSection, #thirdSection, #pageFooter {
     padding: 1px;
 }	
 
@@ -120,7 +120,7 @@ body {
     width: 100%;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
-    color: #b4b4b4;
+    color: #858585;
     line-height: 170%;
 }
 /* FIRST SECTION end *************************/
@@ -151,7 +151,7 @@ body {
 }
 #secondSection .tinted {
     margin: auto; 
-    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+ 
     background-image: url(../images/services1.jpg), url(../images/services2.jpg), url(../images/services3.jpg);
     background-position: left top, center top, right top;
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -166,19 +166,16 @@ body {
 
 
 
-
-#workers {  
+#thirdSection {  
     position: relative;
     height: 1350px;
     margin-top: -200px;
-    width: 100%;
+      width: 100%;
     background-image: url("../images/workers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   
 }
-
-
 
 
 
