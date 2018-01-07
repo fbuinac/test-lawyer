@@ -176,12 +176,42 @@ body {
     background-size: cover;
   
 }
+.sve{
+    margin-top: 117px;
+}
 
+#thirdSection h1{
+    font-family: 'Montserrat', sans-serif;
+    transform: scale(1, 1.03);
+    font-weight: 700;
+    font-size: 35px;
+    padding: 15px 0;
+    color: #ffffff;
+}
 
+#thirdSection .thirdText {
+    float: left;
+    width: 30%;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #929dcf;
+    line-height: 170%;
+}
 
+.odvjetnici{ 
+    margin-top:-255px;
+    float: right;   
+}
+
+#thirdSection h1 span{
+    display: block;
+}
+.odvjetnici span{
+    display: block;
+}
 
 #pageFooter {
-    padding: 20px 0;
+    padding: 50px 0;
     background-color: #D8DBE2;
 }
 
@@ -204,7 +234,7 @@ body {
     margin: auto;
 }
 .wrapper-third  {
-    border: 3px dashed rgb(176, 221, 12);
+    border: 1px dashed rgba(176, 221, 12, 0);
     height: 930px;
     margin: 318px auto;
     max-width: 1060px;
