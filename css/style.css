@@ -13,7 +13,7 @@ body {
     
 }		
 
-#menu,#pageFooter,section,article {
+#menu, #pageHeader, #firstSection, #secondSection, #workers, #pageFooter {
     padding: 1px;
 }	
 
