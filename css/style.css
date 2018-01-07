@@ -176,7 +176,7 @@ body {
     background-size: cover;
   
 }
-.sve{
+.sve {
     margin-top: 117px;
 }
 
@@ -206,7 +206,9 @@ body {
 #thirdSection h1 span{
     display: block;
 }
+
 .odvjetnici span{
+    padding-top: 10px;
     display: block;
 }
 
@@ -228,7 +230,6 @@ body {
 }
 
 .wrapper-second  {
-    border: 1px dashed red;
     height: 450px;
     max-width: 1060px;
     margin: auto;
