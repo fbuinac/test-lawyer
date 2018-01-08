@@ -103,7 +103,7 @@ body {
 	background-size: cover;
 }
 
-.test {
+.firstText {
     float: left;
     width: 50%;
 }
@@ -111,8 +111,8 @@ body {
 #firstSection h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 35px;
-    color: #204f87;
+    font-size: 36px;
+    color: #2b2f85;
     padding: 15px 0;
 }
 
@@ -145,9 +145,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     transform: scale(1, 1.03);
     font-weight: 700;
-    font-size: 35px;
+    font-size: 36px;
     padding: 15px 0;
-    color: #204f87;
+    color: #2b2f85;
 }
 #secondSection .tinted {
     margin: auto; 
@@ -170,26 +170,24 @@ body {
     position: relative;
     height: 1350px;
     margin-top: -200px;
-      width: 100%;
+    width: 100%;
     background-image: url("../images/workers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  
-}
-.sve {
-    margin-top: 117px;
 }
 
 #thirdSection h1{
+    padding-top: 10px;
+    margin: 10px 0;
     font-family: 'Montserrat', sans-serif;
     transform: scale(1, 1.03);
     font-weight: 700;
-    font-size: 35px;
-    padding: 15px 0;
+    font-size: 36px;
     color: #ffffff;
 }
 
 #thirdSection .thirdText {
+    margin-top: 103px;
     float: left;
     width: 30%;
     font-size: 14px;
@@ -198,24 +196,240 @@ body {
     line-height: 170%;
 }
 
-.odvjetnici{ 
-    margin-top:-255px;
-    float: right;   
+.odvjetnici {  
+    float: right; 
+    text-align: right; 
+    width: 70%;
 }
-
-#thirdSection h1 span{
+.odvjetnici span {
     display: block;
+    margin-top: 24px;
 }
 
-.odvjetnici span{
+#thirdSection span {
+    display: block;
+    padding-top: 16px;
+}
+
+
+
+.thirdText a {
+    font-family: "Montseratt", sans-serif;
+    color: #f15829;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.125em;
+}
+
+.thirdText a:hover{
+   color: white;
+}
+
+.sve a,p{
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+#fourthSection{ 
+    display: flex;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    height: 790px;
+}
+
+.fourthTitle{
+    text-align: center;
+}
+
+#fourthSection h1{
     padding-top: 10px;
-    display: block;
+    font-family: 'Montserrat', sans-serif;
+    transform: scale(1, 1.03);
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 105px;
+    color: #2b2f85;
 }
+
+#fourthSection h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #204f87;
+}
+
+#fourthSection p {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #858585;
+    line-height: 170%
+}    
+
+#fourthSection  section {  
+
+    width: 22%;
+    float: left;
+    margin: 0 1.5%;
+}
+
+#fourthSection a {
+    font-family: "Montseratt", sans-serif;
+    color: #f15829;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#fourthSection a:hover {
+    color: #204f87;
+}
+
+#fifthSection {
+    display: flex;
+    z-index: 2;
+    margin-top: -82px;
+    height: 700px;
+    background-image: url("../images/news.png");
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fifthTitle{
+    text-align: center;
+}
+
+#fifthSection h1{
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transform: scale(1, 1.03);
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 75px;
+    color: #2b2f85;
+}
+
+
+#fifthSection h3 {
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #2b2f85;
+    line-height: 1.5;
+    text-align: left;
+}
+#fifthSection p {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #858585;
+    line-height: 170%
+}    
+
+.prvadva{
+    width: 45%;
+    float: left; 
+    padding: 10px;
+}
+
+.drugadva{
+    width: 45%;
+    float: right; 
+    padding: 10px;
+}
+
+
+.post:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    padding-bottom: 10px; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+
+    border-bottom: 1px solid #c0c0c0; /* This creates the border. Replace black with whatever color you want. */
+}
+
+#fifthSection a {
+    font-family: "Montseratt", sans-serif;
+    color: #f15829;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+#fifthSection a:hover {
+    color: #2b2f85;
+}
+
+#sixtSection{
+
+    display: flex;
+    height: 1120px;
+    background-image: url("../images/contact.jpg");
+	background-repeat: no-repeat;
+	background-position: 
+	background-size: cover;
+}
+
+.savwrapper{
+    width: 1920px;
+    margin: 100px;
+     display: flex;
+}
+
+.prvaadresa {
+    text-align: left;
+    width: 100%;   
+    float: left; 
+
+
+}
+
+.drugaadresa {
+    text-align: left;
+    width: 100%;
+    float: right; 
+
+}
+
+.prvaadresa  h5, .drugaadresa h5 {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 1.699;
+}
+
+.email {
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    line-height: 1.699;
+  }
+
+.telefon{
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.699;
+}
+  
 
 #pageFooter {
     padding: 20px 0;
     background-color: #D8DBE2;
 }
+
 
 .wrapper-nav {
     width: 1060px;
@@ -234,19 +448,47 @@ body {
     max-width: 1060px;
     margin: auto;
 }
+
 .wrapper-third  {
-    border: 1px dashed rgba(176, 221, 12, 0);
+    margin: 318px auto 0 auto;
     height: 930px;
-    margin: 318px auto;
     max-width: 1060px;
 }
 
-
-.wrapper {
-    border: 2px solid #7D53DE;
-    max-width: 1100px;
-
+.wrapper-fourth  {
+    margin: auto;
+    max-width: 1060px;
+    height: 520px;
 }
+
+.wrapper-fifth  {
+    z-index: 1;
+    margin: 100px auto;
+    width: 1060px;
+    max-width: 1060px;
+    height: 580px;
+}
+
+.wrapper-adresa1  {
+    margin: 0;
+    width: 530px;
+    max-width: 530px;
+    height: 400px; 
+    border-width: 1px;
+    border-color: rgb(71, 89, 167);
+    border-style: solid;
+}
+
+.wrapper-adresa2  {
+    margin: 0;
+    width: 530px;
+    max-width: 530px;
+    height: 400px; 
+    border-width: 1px;
+    border-color: rgb(71, 89, 167);
+    border-style: solid;
+}
+      
 
 .clearfix:after {
     content:" ";
