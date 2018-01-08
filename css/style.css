@@ -272,8 +272,7 @@ body {
     line-height: 170%
 }    
 
-#fourthSection  section {  
-
+#fourthSection  section { 
     width: 22%;
     float: left;
     margin: 0 1.5%;
@@ -370,7 +369,6 @@ body {
 }
 
 #sixtSection{
-
     display: flex;
     height: 1120px;
     background-image: url("../images/contact.jpg");
@@ -378,34 +376,26 @@ body {
 	background-position: 
 	background-size: cover;
 }
-
-.savwrapper{
-    width: 1920px;
-    margin: 100px;
-     display: flex;
-}
-
-.prvaadresa {
-    text-align: left;
-    width: 100%;   
-    float: left; 
-
-
-}
-
-.drugaadresa {
-    text-align: left;
-    width: 100%;
-    float: right; 
-
-}
-
-.prvaadresa  h5, .drugaadresa h5 {
+.adresa h5{
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    color: rgb(255, 255, 255);
+    color: white;
     line-height: 1.699;
+    padding-bottom: 2rem;
+}
+
+.adresa {
+    width:50%;
+    float: left;
+    margin: 3rem 0rem;
+    padding: 5rem 5rem;
+    border: 1px solid rgb(71, 89, 167);
+     
+}
+
+.adresa a{
+    padding-top: 20px;
 }
 
 .email {
@@ -423,14 +413,89 @@ body {
     font-weight: bold;
     line-height: 1.699;
 }
-  
 
-#pageFooter {
-    padding: 20px 0;
-    background-color: #D8DBE2;
+.sixthTitle {
+    text-align: center;
+}
+.sixthTitle h1{
+    text-align: center;
+    padding-top: 10px;  
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    transform: scale(1, 1.03);
+    font-weight: 700;
+    padding-bottom: 75px;
+    color: white;
+}
+#obrazac{
+    text-align: center;
+}
+form label{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.input {
+    font-size: 14px;
+    padding: 5px;
+    width: 250px;
+    border: 1px solid rgb(100, 112, 167);;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .0);
+    color: white;
+    outline: none;
+}
 
+#obrazac input[type=submit] {
+text-align: center;
+background-color: rgb(242, 98, 44);
+width: 210px;
+height: 45px;
+border: none;
+font-size: 14px;
+font-weight: 700;
+color: white;
+font-family: 'Open Sans', sans-serif;
+}
+
+#obrazac input[type=submit]:hover {
+    text-align: center;
+    background-color: #2b2f85;
+    width: 210px;
+    height: 45px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+
+
+#pageFooter {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(97, 108, 168);
+    line-height: 1.429;
+    background-color: #0c1334;
+}
+
+.linkovi a{
+
+    display: inline;
+    font-size: 18px;
+    font-family: "FontAwesome";
+    color: rgb(177, 184, 221);
+}
+.linkovi li{
+    display: inline;
+    text-align: right;
+
+}
+    
 .wrapper-nav {
     width: 1060px;
     max-width: 1060px;
@@ -469,26 +534,12 @@ body {
     height: 580px;
 }
 
-.wrapper-adresa1  {
-    margin: 0;
-    width: 530px;
-    max-width: 530px;
-    height: 400px; 
-    border-width: 1px;
-    border-color: rgb(71, 89, 167);
-    border-style: solid;
-}
+.wrapper-adresa{
+    width: 1060px;
+    max-width: 90%;
+    margin: 0 auto;
 
-.wrapper-adresa2  {
-    margin: 0;
-    width: 530px;
-    max-width: 530px;
-    height: 400px; 
-    border-width: 1px;
-    border-color: rgb(71, 89, 167);
-    border-style: solid;
 }
-      
 
 .clearfix:after {
     content:" ";
