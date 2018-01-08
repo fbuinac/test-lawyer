@@ -527,16 +527,16 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper-fifth  {
-    z-index: 1;
-    margin: 100px auto;
+    z-index: 1;  
     width: 1060px;
     max-width: 1060px;
+    margin: 100px auto;
     height: 580px;
 }
 
 .wrapper-adresa{
     width: 1060px;
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 
 }
